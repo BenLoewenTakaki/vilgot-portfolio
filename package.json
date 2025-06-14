@@ -1,0 +1,30 @@
+{
+  "name": "vilgot-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website for Vilgot, showcasing films, projects, and music.",
+  "main": "src/main.jsx",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173 --host 0.0.0.0",
+    "serve": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "axios": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^4.0.0"
+  },
+  "keywords": [
+    "portfolio",
+    "film",
+    "music",
+    "projects"
+  ],
+  "author": "Vilgot",
+  "license": "MIT"
+}

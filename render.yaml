@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: vilgot-portfolio
+    env: node
+    buildCommand: npm install --include=dev && npm run build
+    startCommand: npm run serve
+    envVars:
+      - key: NODE_VERSION
+        value: "18"
+      - key: VITE_SPOTIFY_ACCESS_TOKEN
+        sync: false
+      - key: VITE_YOUTUBE_API_KEY
+        sync: false
