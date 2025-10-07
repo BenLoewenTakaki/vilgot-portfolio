@@ -54,18 +54,18 @@ const Header = () => {
                         </li>
                         <li>
                             <a 
-                                href="#films" 
-                                onClick={(e) => handleSectionClick(e, '#films')}
-                            >
-                                Films
-                            </a>
-                        </li>
-                        <li>
-                            <a 
                                 href="#projects" 
                                 onClick={(e) => handleSectionClick(e, '#projects')}
                             >
                                 Projects
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="#films" 
+                                onClick={(e) => handleSectionClick(e, '#films')}
+                            >
+                                Films
                             </a>
                         </li>
                         <li>

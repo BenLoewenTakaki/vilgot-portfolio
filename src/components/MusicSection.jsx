@@ -8,8 +8,8 @@ const MusicSection = () => {
     const [loading, setLoading] = useState(true);
 
     // Vilgot's Spotify IDs for embeds
-    const VILGOT_ARTIST_ID = '5QQx2VGYI89iqfKXguMhr2';
-    const VILGOT_POPULAR_TRACK_ID = '4A8rJva0iMWMXzeBMS1S4x';
+    const VILGOT_ARTIST_ID = '6LaOs4jd5zMkzmVd6eYyPV';
+    const VILGOT_POPULAR_TRACK_ID = '5tQsAhDYE1S3xiECT9URij';
 
     useEffect(() => {
         const getMusicData = async () => {
@@ -80,7 +80,7 @@ const MusicSection = () => {
                     
                     <div style={{ textAlign: 'center' }}>
                         <a 
-                            href="https://open.spotify.com/artist/5QQx2VGYI89iqfKXguMhr2"
+                            href="https://open.spotify.com/artist/6LaOs4jd5zMkzmVd6eYyPV?si=qZsiarjKRVeZzm92RT_4Wg"
                             target="_blank" 
                             rel="noopener noreferrer"
                             style={{
@@ -163,8 +163,8 @@ const MusicSection = () => {
                                 maxWidth: '600px',
                                 margin: '0 auto'
                             }}>
-                                Vilgot Pettersson's musical work explores the intersection of visual storytelling and sonic landscapes. 
-                                His compositions often serve as soundtracks to his films, creating immersive artistic experiences that 
+                                My musical work explores the intersection of visual storytelling and sonic landscapes. 
+                                My compositions often serve as soundtracks to my films, creating immersive artistic experiences that 
                                 blur the boundaries between cinema and music.
                             </p>
                         </>
