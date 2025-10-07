@@ -34,6 +34,18 @@ const Header = () => {
         }
     };
 
+    const handleHomeClick = (e) => {
+        e.preventDefault();
+        if (!isHomePage) {
+            navigate('/');
+        }
+        // Scroll to top smoothly
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    };
+
     return (
         <header className="header">
             <div className="container">
@@ -45,12 +57,21 @@ const Header = () => {
                 <nav className="navigation">
                     <ul>
                         <li>
-                            <Link 
-                                to="/" 
+                            <a 
+                                href="#top" 
+                                onClick={handleHomeClick}
                                 className={isHomePage ? 'active' : ''}
                             >
                                 Home
-                            </Link>
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="#about" 
+                                onClick={(e) => handleSectionClick(e, '#about')}
+                            >
+                                About
+                            </a>
                         </li>
                         <li>
                             <a 
@@ -75,14 +96,6 @@ const Header = () => {
                             >
                                 Music
                             </a>
-                        </li>
-                        <li>
-                            <Link 
-                                to="/about" 
-                                className={location.pathname === '/about' ? 'active' : ''}
-                            >
-                                About
-                            </Link>
                         </li>
                     </ul>
                 </nav>

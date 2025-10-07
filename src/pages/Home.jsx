@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
+import AboutSection from '../components/AboutSection';
 import ReelSection from '../components/ReelSection';
 import ProjectsSection from '../components/ProjectsSection';
 import FilmSection from '../components/FilmSection';
@@ -12,6 +13,7 @@ const Home = () => {
         <div>
             <Header />
             <Hero />
+            <AboutSection />
             <ReelSection />
             <ProjectsSection />
             <FilmSection />
