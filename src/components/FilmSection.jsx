@@ -74,9 +74,8 @@ const FilmSection = () => {
         <section id="films" className="film-section">
             <div className="container">
                 <div className="section-header">
-                    <h2>Film, TV, Digital and Projects</h2>
+                    <h2>Film, TV, Digital</h2>
                     <p className="section-subtitle">
-                        Exploring visual storytelling through compelling short films
                     </p>
                 </div>
                 <div className="video-scroll-container">
