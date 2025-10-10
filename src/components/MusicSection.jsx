@@ -163,9 +163,9 @@ const MusicSection = () => {
                                 maxWidth: '600px',
                                 margin: '0 auto'
                             }}>
-                                My musical work explores the intersection of visual storytelling and sonic landscapes. 
-                                My compositions often serve as soundtracks to my films, creating immersive artistic experiences that 
-                                blur the boundaries between cinema and music.
+                                This was a passion project of mine that I would do on my free time, it’s a hip-hop based album containing 13 songs. 
+                                I produced, arranged and wrote the album on GarageBand using my own electric piano. 
+                                I also managed to find a way to distribute it on DSPs such as Spotify.
                             </p>
                         </>
                     )}
