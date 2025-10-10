@@ -15,7 +15,7 @@ const Hero = () => {
             </svg>
             <div style={{ position: 'relative', zIndex: 2 }}>
                 <h1>Vilgot Pettersson</h1>
-                <a href="/cv.pdf" className="button" download>
+                <a href="/Vilgot_Pettersson_CV.pdf" className="button" download>
                     Download CV
                 </a>
             </div>

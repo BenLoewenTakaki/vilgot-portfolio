@@ -8,7 +8,7 @@ const ProjectsSection = () => {
             title: 'TreeTides',
             type: 'pdf',
             file: '/TreeTides.pdf',
-            description: 'My First Magazine on Things I Love'
+            description: 'I challenged myself to write and design a magazine. This was so I can refine my writing skills, get better at using Adobe Photoshop and learn how to use Adobe InDesign. I wrote most article by myself and designed the whole thing by myself using Photoshop and InDesign.'
         },
         {
             title: 'Project',
