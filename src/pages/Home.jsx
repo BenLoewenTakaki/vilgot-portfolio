@@ -14,8 +14,8 @@ const Home = () => {
             <Header />
             <Hero />
             <AboutSection />
-            <FilmSection />
             <ReelSection />
+            <FilmSection />
             <ProjectsSection />
             <MusicSection />
             <Footer />
